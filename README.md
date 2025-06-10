@@ -6,10 +6,10 @@ A side-by-side analysis of Java and C++ implementations of a multithreaded count
 
 This project compares concurrent counter implementations in **Java** and **C++**, with a focus on **thread management**, **synchronization**, **memory safety**, and **performance/security trade-offs**.
 
-### 🧵 Java Implementation
+###  Java Implementation
 The Java version uses `Thread`, `synchronized` blocks, and `wait/notify` for thread coordination. Two threads increment and decrement a shared counter while using a lock object to control access.
 
-### 📊 Comparative Analysis
+###  Comparative Analysis
 - **Java** offers a higher-level abstraction, easing development but introducing some overhead.
 - **C++** gives finer control with lower-level thread primitives and manual memory management, offering better performance but higher risk of errors.
 - Security trade-offs, memory management, and data race risks are also discussed.
