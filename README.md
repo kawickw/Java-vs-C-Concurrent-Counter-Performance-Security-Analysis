@@ -25,3 +25,14 @@ The Java version uses `Thread`, `synchronized` blocks, and `wait/notify` for thr
 3. Run the file to see the counter increment/decrement in the console.
 
 ## Output Example
+
+
+
+![Java](https://img.shields.io/badge/language-Java-blue)
+
+
+
+## Technologies Used
+- Java (JDK 8+)
+- Threading (synchronized, wait/notify)
+- IntelliJ IDEA (for development)
